@@ -1,0 +1,26 @@
+<html>
+    <head>
+      <title></title>
+  <script src = "dragiframe.js"> </script>
+  </script>
+  <style type="text/css">
+   body {
+    background-color: #EEEEEE;
+   }
+   span.c1 {background-color:yellow}
+  </style>
+    </head>
+    <body onload="addHandle(document.getElementById('toolbar'), window); addHandle(document.getElementById('handle'), window);">
+      <table id="toolbar" border="0" width="100%" >
+  
+        <tr>
+          <td style="background-color:red;height:10px;">
+            &nbsp;
+          </td>
+        </tr>
+      </table>DRAG ME BY MY RED HANDLE!<br>
+      <br>
+      Or you can also drag me by <span id="handle" class="c1">THESE WORDS</span>
+  
+    </body>
+  </html>
